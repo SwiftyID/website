@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SwiftyID - Komunitas Bahasa Pemrograman Swift Indonesia</title>
+        <meta name="description" content="SwiftyID adalah komunitas Bahasa Pemrograman Swift Indonesia. Swift adalah bahasa pemrograman open-source dari Apple">
+        <meta name="author" content="SwiftyID">
+        <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="center">
+            <div class="center-inner">
+                <h1>Halo, kami SwiftyID!</h1>
+                <p>Kami adalah komunitas bahasa pemrograman Swift. Swift adalah bahasa pemrograman sumber terbuka dari Apple yang menyatukan fitur-fitur modern dari bahasa pemrograman populer seperti Objective-C, Rust, Haskell, Ruby, Python, C#, CLU.</p>
+                <pre>try SwiftyID()</pre>
+                <ul class="footer">
+                    <li><a href="https://github.com/SwiftyID/" title="GitHub" target="__blank">GitHub</a></li>
+                    <li><a href="https://t.me/joinchat/E8WUWwz7aO11sn6AtQiQeQ" title="Telegram Group" target="__blank">Telegram Group</a></li>
+                    <li><a href="https://www.eventbrite.sg/o/team-swiftyid-15633856260" title="Eventbrite" target="__blank">Eventbrite</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
