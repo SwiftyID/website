@@ -28,7 +28,7 @@ Use Vapor Toolbox to deploy this project to vapor cloud.
 `vapor cloud deploy`
 
 Development slug:
-`https://swiftyid-website.vapor.cloud/`
+`https://swiftyid-website-development.vapor.cloud/`
 
 Production:
 `https://swiftyid-website.vapor.cloud/`
