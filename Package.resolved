@@ -20,15 +20,6 @@
         }
       },
       {
-        "package": "CTLS",
-        "repositoryURL": "https://github.com/vapor/ctls.git",
-        "state": {
-          "branch": null,
-          "revision": "fddec6a4643d6e85b6bb6dc54b1b5cdbabd395d2",
-          "version": "1.1.2"
-        }
-      },
-      {
         "package": "Console",
         "repositoryURL": "https://github.com/vapor/console.git",
         "state": {
@@ -53,6 +44,15 @@
           "branch": null,
           "revision": "946edc6642d6825982a2f52a268a8ba9bd520a3d",
           "version": "2.1.2"
+        }
+      },
+      {
+        "package": "CTLS",
+        "repositoryURL": "https://github.com/vapor/ctls.git",
+        "state": {
+          "branch": null,
+          "revision": "fddec6a4643d6e85b6bb6dc54b1b5cdbabd395d2",
+          "version": "1.1.2"
         }
       },
       {
