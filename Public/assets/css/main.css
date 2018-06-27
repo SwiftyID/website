@@ -2146,6 +2146,11 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		#logo img {
+			width: 60px;
+     	margin-top: 6px;
+		}
+
 	#nav {
 		text-align: center;
 		position: absolute;
@@ -2268,9 +2273,10 @@ input, select, textarea {
 		z-index: 1;
 	}
 
-		#hero h2 {
+		#hero h1 {
 			color: #fff;
 			font-size: 3em;
+     	line-height: 1.25em;
 		}
 
 		#hero strong {

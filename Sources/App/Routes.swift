@@ -9,7 +9,11 @@ final class Routes: RouteCollection {
     func build(_ builder: RouteBuilder) throws {
         /// GET /
         builder.get { req in
-            return try self.view.make("welcome")
+            let context = [
+              "title": "Komunitas Bahasa Pemrograman Swift",
+              "description": "Kami Komunitas Bahasa Pemrograman Swift berbasis di Jakarta."
+            ]
+            return try self.view.make("welcome", context)
         }
 
     }
