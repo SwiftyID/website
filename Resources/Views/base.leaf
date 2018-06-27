@@ -36,6 +36,7 @@
 					</div>
 					#import("hero")
 				</div>
+			#import("content")
 			<!-- Footer -->
 				<div id="footer-wrapper">
 					<div id="footer" class="container">
