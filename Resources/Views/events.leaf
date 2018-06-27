@@ -1,0 +1,24 @@
+#extend("base")
+
+#export("title") { #(title) }
+
+#export("hero") {
+	<!-- Hero -->
+		<section id="hero" class="container">
+			<header>
+				<h1>Acara</h1>
+			</header>
+		</section>
+}
+
+#export("content") {
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <section class="col-12 col-12-narrower feature">
+          <p>Sedang dikembangkan :)</p>
+        </section>
+      </div>
+    </div>
+  </div>
+}

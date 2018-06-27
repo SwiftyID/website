@@ -1,0 +1,25 @@
+#extend("base")
+
+#export("title") { #(title) }
+
+#export("hero") {
+	<!-- Hero -->
+		<section id="hero" class="container">
+			<header>
+				<h1>Blog</h1>
+			</header>
+			<p>Kumpulan artikel tentang <a href="https://github.com/SwiftyID/" target="_blank">bahasa pemrograman Swift</a>.</p>
+		</section>
+}
+
+#export("content") {
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <section class="col-12 col-12-narrower feature">
+          <p>Sedang dikembangkan :)</p>
+        </section>
+      </div>
+    </div>
+  </div>
+}
