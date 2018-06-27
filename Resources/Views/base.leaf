@@ -19,16 +19,16 @@
 					<div id="header" class="container">
 						<!-- Logo -->
 							<div id="logo">
-								<a href="index.html">
+								<a href="/">
 								<img src="/images/swifty-logo.png" /></a>
 							</div>
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="#">Tentang Kami</a></li>
-									<li><a href="left-sidebar.html">Events</a></li>
-									<li class="break"><a href="right-sidebar.html">Blog</a></li>
-									<li><a href="no-sidebar.html">Kontak</a></li>
+									<li><a href="/tentang-kami">Tentang Kami</a></li>
+									<li><a href="/acara">Acara</a></li>
+									<li class="break"><a href="/blog">Blog</a></li>
+									<li><a href="/kontak">Kontak</a></li>
 								</ul>
 							</nav>
 
@@ -40,7 +40,7 @@
 					<div id="footer" class="container">
 						<div class="row">
 							<section class="col-6 col-12-narrower">
-								<form method="post" action="#">
+								<form method="post" action="/">
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobile">
 											<input name="name" placeholder="Name" type="text" />
@@ -76,7 +76,7 @@
 					</div>
 					<div id="copyright" class="container">
 						<ul class="menu">
-							<li>&copy; <a href="https://github.com/SwiftyID/" target="_blank">SwiftyID</a>. All rights reserved.</li>
+							<li>&copy; <a href="/">SwiftyID</a>. All rights reserved.</li>
 							<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
 							<li>Code: <a href="http://setoelkahfi.web.id" target="_blank">Seto Elkahfi</a></li>
 						</ul>

@@ -2148,7 +2148,7 @@ input, select, textarea {
 
 		#logo img {
 			width: 60px;
-     	margin-top: 6px;
+			vertical-align: middle;
 		}
 
 	#nav {
@@ -2717,8 +2717,7 @@ input, select, textarea {
 				#logo a {
 					border: solid 1px rgba(255, 255, 255, 0.75);
 					border-radius: 0.35em;
-					height: 3em;
-					line-height: 3em;
+     			height: 4.4em;
 				}
 
 		/* Nav */

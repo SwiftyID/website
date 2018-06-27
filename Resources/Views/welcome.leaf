@@ -6,7 +6,7 @@
 	<!-- Hero -->
 		<section id="hero" class="container">
 			<header>
-				<h1>SwiftyID</h1>
+				<h1>SwiftyID #(hostname)</h1>
 			</header>
 			<p><a href="https://github.com/SwiftyID/" target="_blank">Komunitas bahasa pemrograman Swift</a> di Indonesia.</p>
 		</section>

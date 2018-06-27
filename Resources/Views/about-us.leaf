@@ -1,0 +1,12 @@
+#extend("base")
+
+#export("title") { #(title) }
+
+#export("hero") {
+	<!-- Hero -->
+		<section id="hero" class="container">
+			<header>
+				<h1>Tentang Kami</h1>
+			</header>
+		</section>
+}

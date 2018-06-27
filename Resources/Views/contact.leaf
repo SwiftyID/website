@@ -1,0 +1,13 @@
+#extend("base")
+
+#export("title") { #(title) }
+
+#export("hero") {
+	<!-- Hero -->
+		<section id="hero" class="container">
+			<header>
+				<h1>Kontak Kami</h1>
+			</header>
+			<p>Hubungi kami langsung melalui saluran media sosial kami.</p>
+		</section>
+}
