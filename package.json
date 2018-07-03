@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SwiftyID/website/issues"
   },
-  "homepage": "https://github.com/SwiftyID/website#readme"
+  "homepage": "https://github.com/SwiftyID/website#readme",
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
 }
