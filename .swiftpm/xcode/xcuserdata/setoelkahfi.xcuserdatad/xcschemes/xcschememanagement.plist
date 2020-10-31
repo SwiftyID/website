@@ -20,5 +20,23 @@
 			<integer>1</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>App</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>Run</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
