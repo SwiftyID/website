@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>#(title)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #ECEFF4;
+      --fg: #2E3440;
+      --accent: #5E81AC;
+      --accent2: #88C0D0;
+      --card: #E5E9F0;
+      --radius: 18px;
+      --shadow: 0 4px 24px rgba(46,52,64,0.07);
+    }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Inter', 'SF Pro Display', 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 3rem 2.5rem 2.5rem 2.5rem;
+      max-width: 420px;
+      text-align: center;
+      margin-top: 3vh;
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 1.2rem;
+      display: inline-block;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 12px rgba(94,129,172,0.10);
+    }
+    .logo svg {
+      width: 38px;
+      height: 38px;
+      display: block;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -1px;
+    }
+    .subtitle {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      font-weight: 500;
+    }
+    .desc {
+      font-size: 1.08rem;
+      margin-bottom: 1.8rem;
+      color: #4C566A;
+      line-height: 1.6;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1.2rem;
+      padding: 0.85em 2.2em;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-decoration: none;
+      box-shadow: 0 2px 12px rgba(94,129,172,0.13);
+      transition: background 0.2s;
+      letter-spacing: 0.03em;
+    }
+    .cta:hover {
+      background: #81A1C1;
+    }
+    .community {
+      margin-top: 2.2rem;
+      text-align: left;
+      font-size: 1rem;
+      color: #5E81AC;
+      background: #D8DEE9;
+      border-radius: 12px;
+      padding: 1.1rem 1.3rem;
+      box-shadow: 0 1px 6px rgba(94,129,172,0.06);
+    }
+    .community strong {
+      color: var(--fg);
+      font-weight: 600;
+    }
+    .footer {
+      margin-top: 2.5rem;
+      font-size: 0.95rem;
+      color: #7B8794;
+      opacity: 0.7;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem 0.7rem 1.5rem 0.7rem;
+        max-width: 98vw;
+      }
+      .community {
+        padding: 0.9rem 0.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <!-- Simple Swift-inspired logo (bird) in SVG, nordic blue gradient -->
+      <svg viewBox="0 0 48 48" fill="none">
+        <path d="M8 32c8 4 18-2 24-8-3 6-2 12 4 16-7-1-13-5-17-10 2 5 6 9 11 11-10 2-18-4-22-9z" fill="#ECEFF4"/>
+        <path d="M40 16c-4 7-13 14-24 8 8-2 14-7 18-13-2 5-1 10 6 13z" fill="#5E81AC"/>
+      </svg>
+    </div>
+    <h1>SwiftyID</h1>
+    <div class="subtitle">Komunitas Swift untuk Penutur Bahasa Indonesia</div>
+    <div class="desc">
+      SwiftyID adalah komunitas bagi siapa saja yang ingin belajar, berbagi, dan berkembang bersama dalam ekosistem <strong>Swift</strong>.<br>
+      Temukan diskusi, tutorial, dan dukungan dari sesama pengembang Swift Indonesia—mulai dari pemula hingga profesional.
+    </div>
+    <a class="cta" href="https://t.me/swiftyid" target="_blank">Gabung Telegram</a>
+    <div class="community">
+      <strong>Aktivitas Komunitas:</strong>
+      <ul style="margin: 0.7em 0 0 1.1em; padding: 0;">
+        <li>Diskusi seputar Swift, iOS, macOS, dan ekosistem Apple</li>
+        <li>Belajar bersama lewat sesi tanya jawab</li>
+        <li>Berbagi proyek, artikel, dan sumber belajar</li>
+        <li>Networking &amp; kolaborasi antar anggota</li>
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; #(year) SwiftyID &mdash; Dibuat oleh komunitas, untuk komunitas.
+    </div>
+  </div>
+</body>
+</html>
