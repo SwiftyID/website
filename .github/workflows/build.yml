@@ -2,6 +2,9 @@ name: Swift Build
 
 on:
   push:
+    paths:
+      - '**/*.swift'
+      - '**/*.leaf'
 
 jobs:
   build:
