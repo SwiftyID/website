@@ -1,6 +1,6 @@
 # SwiftyWebsite
 
-💧 A project built with the Vapor web framework.
+SwiftyID monolithic website built with the Vapor web framework.
 
 ## Getting Started
 
