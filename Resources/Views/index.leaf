@@ -128,24 +128,23 @@
       </svg>
     </div>
     <h1>SwiftyID</h1>
-    <div class="subtitle">Komunitas bahasa pemograman Swift untuk Penutur Bahasa Indonesia.</div>
+    <div class="subtitle">Komunitas pengguna Swift berbahasa Indonesia.</div>
     <div class="desc">
-      SwiftyID adalah komunitas bagi siapa saja yang ingin belajar, berbagi, dan berkembang bersama dalam ekosistem <strong>Swift</strong>.<br>
-      Temukan diskusi, tutorial, dan dukungan dari sesama pengembang Swift Indonesia—mulai dari pemula hingga profesional.
+      Tempat belajar <strong>Swift</strong> dan berbagi dengan sesama developer di Indonesia.<br>
+      Baru mulai atau sudah lama ngoding, semua boleh ikut.
     </div>
     <a class="cta" href="https://github.com/SwiftyID" target="_blank">Kunjungi GitHub</a>
     <a class="cta" href="https://github.com/SwiftyID/website" target="_blank" style="margin-top: 1rem;">Sunting situs web ini</a>
     <div class="community">
-      <strong>Aktivitas Komunitas:</strong>
+      <strong>Yang biasa kami lakukan:</strong>
       <ul style="margin: 0.7em 0 0 1.1em; padding: 0;">
-        <li>Diskusi seputar Swift, iOS, macOS, dan ekosistem Apple</li>
-        <li>Belajar bersama lewat sesi tanya jawab</li>
-        <li>Berbagi proyek, artikel, dan sumber belajar</li>
-        <li>Networking &amp; kolaborasi antar anggota</li>
+        <li>Diskusi soal Swift, iOS, dan macOS</li>
+        <li>Tanya jawab kalau lagi stuck</li>
+        <li>Berbagi proyek dan tulisan</li>
       </ul>
     </div>
     <div class="footer">
-      &copy; #(year) SwiftyID &mdash; Dibuat oleh komunitas, untuk komunitas.
+      &copy; SwiftyID. Dikelola oleh komunitas.
     </div>
   </div>
 </body>
