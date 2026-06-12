@@ -4,7 +4,7 @@ import Vapor
 func routes(_ app: Application) throws {
     app.get { req async throws in
         try await req.view.render(
-            "index", ["title": "Welcome to SwiftyID! - Komunitas Bahasa Pemrograman Swift"])
+            "index", ["title": "SwiftyID — Komunitas Swift Indonesia"])
     }
 
     app.get("hello") { req async -> String in
