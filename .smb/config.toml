@@ -3,8 +3,16 @@ description = "This is SwiftyID website project runs on smbCloud."
 
 [project]
 id = 21
+frontend_app_id = "aa0864df-5ffe-4ac6-ae78-f567e0c59c25"
 name = "swiftyidwebsite"
 repository = "swiftyidwebsite"
 description = "This is SwiftyID website project runs on smbCloud."
+runner = 3
+# kind stays local until the API model change (swift in VALID_KINDS) is deployed;
+# the rest (runner, path, port, binary_name) now come from the server App record.
+kind = "swift"
+path = "apps/swiftyidwebsite"
+port = 3010
+binary_name = "SwiftyWebsite"
 created_at = "2025-06-28T14:21:10.885Z"
 updated_at = "2025-06-28T14:21:10.885Z"
